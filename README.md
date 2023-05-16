@@ -35,11 +35,11 @@ In this project, we analyzed a stroke prediction dataset, which contains 12 colu
  In the cleaning process, we saw the information on the columns and the database shape. We tested if there were any duplicated values. We saw that in the column "gender" were 3 different categories and we realized that in the category "other" it was just one entry, so we decided to delete that one entry because it is not enough to make any conclusions about the whole category. We searched for missing values in any column and saw that the column "BMI" had 201 N/A values, so we decided to drop them. 
 Finally, we made the index as the id column and created a un csv with the cleaned data. 
 
-
+### Analysis
  ##Rodolfo 
    
  ##Alex 
   
  ##Esteban 
   
- ##Diana
+To answer the questions "Is smoking a key factor in increasing the probability of having a stroke?" and "Is having a heart disease and/or hypertension considered a risk factor?". First, we analyzed the data with the value counts and divided them into the ones that had a stroke and the ones that didn´t. A table with the summarized information was made, the table included: the total number of patients, the patients that had a stroke, and their respective percentages. With the help of a hypothesis analysis for the first question, conclusions were made.
