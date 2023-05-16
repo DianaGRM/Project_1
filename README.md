@@ -36,7 +36,41 @@ In this project, we analyzed a stroke prediction dataset, which contains 12 colu
 Finally, we made the index as the id column and created a un csv with the cleaned data. 
 
 ### Analysis
- ##Rodolfo 
+ To answer What is the correlation between the variables? we tried to understand the difference of each variable between patients with stroke ande the general population within the data frame. We found the following
+
+Stroke Patients are Overdeveloped in:
+
+- Self Employment
+- Formerly Smokers
+- Married
+- Hypertension
+- Heart Disease
+- Glucose levels
+- Age
+
+Factors balanced vs. Non Stroke: Residence & BMI
+
+  To answer Can we cluster different attributes to better predict strokes? We decided to make clusters within the Stroke patients to identify if there were different patient profiles that could allow us to predict strokes given different sets of conditions 
+
+In order to do this we had to get rid of categorical values to do a KMean analysis. We passed from a Data Frame of 14 columns to 21 Columns
+  
+We defining the number of clusters needed: Used the Codo de Jambu method (Elbow Method). WCSS is an indicator of how similar are the individuals within the clusters. The value of WCSS stopped the drastical diminish at cluster  #2 thus this is the optimal number of clusters
+
+We used the Main components method to demonstrate there’s no overlap in the clusters 
+  We compared the variables similarities and differences between clusters of patients that had suffered a stroke and also the patients without stroke to identify ranges, maximum values and possible main risk factors
+  
+  As initial observation we see that patients above 66-69 years old who has suffered hypertension and / or heart dis ease,married with glucose level around 210 showed more propensity to stroke
+
+In order to get more accurate conclusions let’s analyze each variable separately
+
+  References 
+- merge data frames : https://www.youtube.com/watch?v=mEmNiPoqKAo&t=238s
+- legend outside de chart : https://www.youtube.com/watch?v=b5I3D4eJtKQ
+- rename columns : https://www.youtube.com/watch?v=0uBirYFhizE
+- converting categorical values into binary : https://www.youtube.com/watch?v=fyHaUMX9y0A
+- replacing values in columns = https://www.youtube.com/watch?v=CA4tSV-oJoY&t=153s
+- k-means clustering = https://www.youtube.com/watch?v=s6PSSzeUMFk 
+
    
  ##Alex 
   
