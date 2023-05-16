@@ -8,11 +8,11 @@ A patient's likelihood of having a stroke based on certain parameters
 An ischemic stroke occurs when the blood supply to part of the brain is interrupted or reduced, preventing brain tissue from getting oxygen and nutrients. Brain cells begin to die in minutes.
 
 Principal signs and symptoms:
-  -Trouble speaking and understanding what others are saying.
-  -Paralysis or numbness of the face, arm or leg.
-  -Problems seeing in one or both eyes.
-  -Headache
-  -Trouble walking.
+  - Trouble speaking and understanding what others are saying.
+  - Paralysis or numbness of the face, arm or leg.
+  - Problems seeing in one or both eyes.
+  - Headache
+  - Trouble walking.
   
 A stroke is a medical emergency, and prompt treatment is crucial. Early action can reduce brain damage and other complications. Predicting the likelihood of stroke can help to prevent and manage the disease. This project aims to identify the key risk factors and contributors that affect stroke prediction using a large dataset.  The goal is to identify and analyze the risk factors that could increase the probability of a patient getting a stroke. 
 
