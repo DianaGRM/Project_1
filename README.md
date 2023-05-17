@@ -75,6 +75,5 @@ To answer the question of "What percentage of patients in the sample have suffer
   
 For the question of "Percentage of strokes by gender" we got the total population divided by gender and the percentage of people that had a stroke in the dataset; showing in a bar chart. To see if there is evidence that one gender is more likely to suffer a stroke we made a hypotesis test; which resulted in both gender having the same likelyhood.
   
- ##Esteban 
   
 To answer the questions "Is smoking a key factor in increasing the probability of having a stroke?" and "Is having a heart disease and/or hypertension considered a risk factor?". First, we analyzed the data with the value counts and divided them into the ones that had a stroke and the ones that didn´t. A table with the summarized information was made, the table included: the total number of patients, the patients that had a stroke, and their respective percentages. With the help of a hypothesis analysis for the first question, conclusions were made.
