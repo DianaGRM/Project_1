@@ -71,8 +71,9 @@ In order to get more accurate conclusions let’s analyze each variable separate
 - replacing values in columns = https://www.youtube.com/watch?v=CA4tSV-oJoY&t=153s
 - k-means clustering = https://www.youtube.com/watch?v=s6PSSzeUMFk 
 
-   
- ##Alex 
+To answer the question of "What percentage of patients in the sample have suffered a stroke?" we took the total number of patients that have a stroke reported and divided by the total number of patients in the cleaned dataset. We added a pie chart to indicate the percentage from the total. 
+  
+For the question of "Percentage of strokes by gender" we got the total population divided by gender and the percentage of people that had a stroke in the dataset; showing in a bar chart. To see if there is evidence that one gender is more likely to suffer a stroke we made a hypotesis test; which resulted in both gender having the same likelyhood.
   
  ##Esteban 
   
